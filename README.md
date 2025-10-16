@@ -1,6 +1,6 @@
 # Cosmos-Hiring-Assessment
 
-This directory offers some example scripts that the tema would use to ingest data from varying sources and upload that to a vector database.
+This directory offers some example scripts that the team would use to ingest data from varying sources and upload that to a vector database.
 
 This directory also creates a basic backend and frontend where the user can query against the database. A user query on the frontend will trigger a cosine similarity against the vector db which will return a set of five or fewer results. We then send this information and the original query to an LLM to make the results human readable and answer the original question.
 
